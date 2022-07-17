@@ -6,6 +6,8 @@ var q = document.getElementById('q'),
     c = q.getContext('2d'),
     m = Math;
 setInterval(function() {
+    // w = q.width = window.innerWidth;
+    // h = q.height = window.innerHeight;
     c.fillStyle = 'rgba(0, 0, 0, 0.05)';
     c.fillRect(0, 0, w, h);
     c.fillStyle='rgba(0,255,0,1)';
