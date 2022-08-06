@@ -14,13 +14,9 @@ header {
     flex-direction: row;
     position: sticky;
     top: 0px;
-    background-color: rgba(0, 0, 2, 0.5);
+    background-color: rgba(42, 42, 49, 0.3);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-}
-
-p {
-    margin: 10px;
 }
 
 .nav__item {

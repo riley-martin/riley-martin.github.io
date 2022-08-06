@@ -5,22 +5,11 @@ html, body {
     flex-direction: column;
 }
 
-body {
-    height: 100vh;
-}
-
 header {
     display: flex;
     flex-direction: row;
-    position: sticky;
-    top: 0px;
-    background-color: rgba(0, 0, 2, 0.5);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-}
-
-p {
-    margin: 10px;
 }
 
 .nav__item {
