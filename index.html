@@ -4,20 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Riley Martin</title>
+    <link rel="stylesheet" href="index_html.css">
+    <title>Home Page -- Riley Martin</title>
 </head>
 <body>
-    <div class="container">
-        <canvas id="q">
-        </canvas>
-        <div class="heading">
-            <h1 class="animate__animated animate__lightSpeedInLeft">Coming Soon...</h1>
+    <header>
+        <nav>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#">Home</a></li>
+                <li class="nav__item"><a href="about.html">About Me</a></li>
+                <li class="nav__item"><a href="posts.html">Posts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main__content">
+            <h1>Hi, I am Riley Martin</h1>
+            <div class="card__container">
+                <div class="card">
+                    <h2>About Me</h2>
+                    <p>
+                        Find out more about me <span class="link__container">
+                            <a class="link" href="about.html">here</a></span>.
+                    </p>
+                </div>
+                <div class="card">
+                    <h2>Projects and Blog</h2>
+                    <p>
+                        Over <span class="link__container">
+                            <a class="link" href="posts.html">here</a>
+                        </span>
+                        are some projects I have worked on and posts I have written.
+                    </p>
+                </div>
+                <div class="card">
+                    <h2>Open Source Contributions</h2>
+                    <p>
+                        <span class="link__container">
+                            <a class="link" href="https://github.com/riley-martin">Here</a>
+                        </span> you can view my work and contributions to open-source projects.
+                    </p>
+                </div>
+            </div>
         </div>
-    </div>
-    <script type="text/javascript" src="script.js"></script>
+    </main>
+    <footer></footer>
 </body>
 </html>
