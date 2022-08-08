@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
 html, body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Exo 2', sans-serif;
     display: flex;
     flex-direction: column;
     background-color: rgb(26, 27, 29);
@@ -26,6 +28,7 @@ header {
 
 h1, h2, h3, h4, h5, h6 {
     margin-left: 10px;
+    font-weight: lighter;
 }
 
 p {
@@ -52,6 +55,12 @@ a:after {
 a {
     color: lightblue;
     text-decoration: none;
+}
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
 }
 
 .nav__item a:after {
@@ -90,11 +99,4 @@ a {
 
 .link__container {
     display: inline-block;
-}
-
-.gh__profile {
-    width: 10;
-    transform: scale(0.5);
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
 }
