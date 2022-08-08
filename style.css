@@ -18,8 +18,8 @@ header {
     flex-direction: row;
     position: sticky;
     top: 4px;
-    margin: 8px;
-    border-radius: 16px;
+    margin: 16px;
+    border-radius: 10px;
     width: fit-content;
     background-color: rgba(144, 144, 170, 0.308);
     backdrop-filter: blur(8px);
