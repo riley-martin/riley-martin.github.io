@@ -6,8 +6,8 @@ install() {
 
 install_dotfiles() {
   homeshick clone riley-martin/dotfiles
+  homeshick link
 }
 
 install
 install_dotfiles
-homeshick link
