@@ -10,4 +10,4 @@ install_dotfiles() {
 
 install
 install_dotfiles
-homeshick link dotfiles
+homeshick link
